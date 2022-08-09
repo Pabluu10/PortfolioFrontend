@@ -1,0 +1,107 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background: rgb(243,254,245);
+    background: linear-gradient(90deg, rgba(243,254,245,1) 0%, rgba(230,230,242,1) 26%, rgba(243,254,245,1) 100%);
+}
+h1,
+h2,
+h3 {
+    font-family: sans-serif;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    color: #a52a2a;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    transition: .5s;
+}
+
+main a:hover{
+    color: brown;
+}
+
+img {
+    max-width: 100%;
+}
+/* Header */
+header {
+    min-height: 100vh;
+    background-image: url(../img/header_web.jpg);
+    background-size: cover;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: crimson;
+}
+.header_logo {
+    width: 100px;
+}
+ul {
+    display: flex;
+    align-items: center;
+}
+
+ul li {
+    list-style-type: none;
+    margin: 10px;
+    transition: .4s;
+}
+
+ul li:hover{
+    transform: scale(1.2);
+}
+
+.welcome {
+    width: 40%;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    top: 200px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 20px;
+}
+
+i {
+    font-size: 1em;
+    transition: .4s;
+}
+
+i.iconoLogueo {
+    font-size: 2em;
+    margin: 0 10px;
+}
+
+main i:hover{
+    color: brown;
+    transform: scale(1.2);
+}
+
+/* Main content */
+.descripcion {
+    position: relative;
+}
+.img_perfil {
+    width: 80px;
+    border-radius: 50%;
+    position: absolute;
+    top: 200px;
+    left: 20px
+}
